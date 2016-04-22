@@ -52,7 +52,14 @@
 								<h2>High level Performance Programming</h2>
 								<span class="byline">Make high-level, easy to write and read code <strong>fast</strong></span>
 							</header>
-							<p></p>
+							<h3>Do I have to learn C?</h3>
+							<p>Often in scientific programming, there comes a day when the high-level tools that are used day to day are not fast enough. You might be able to buy a better computer, but even that might not be enough. There's no choise now - you have to write in in C or FORTRAN. Or do you? These languages can be hard to learn and harder to debug. Even when you're a C pro you can't write it as quickly as in Python. What if you could write that super fast code without having to learn another language? There must be a better way....</p>
+							
+							<h3>Languages arent fast! (sort of)</h3>
+							<p>Its often said that some programming languages are "fast", and others are "slow". This is sort of true in practice, but doesn't have to be. What is really meant by a "fast" language, is one that is easy to compile to efficient machine code. After all, the problem you are trying to solve it the same which ever language its written in. If the compiler is clever enough, then it should be able to interpret your problem for the high-level language and compile to some similarly efficient machine code.</p>
+							
+							<h3>The better way</h3>
+							<p>I have been researching ways of writing performance code in Python, a high level language. This has involved a couple of techniques, but currently I think methods of "Just-In-Time" (JIT) compilation are most promising. These methods infer all the types of variables at runtime, allowing functions to be compiled to machine code, then caches that machine code for when the code is run again. This is very useful for loops, which is where most of the slowdowns in scientific code occur. This</p>
 						</section>
 					</div>
 				<!-- /Page -->

@@ -50,3 +50,11 @@
 	#page {
 		padding: 2em 1em;
 	}
+	
+.inline-image {
+	border: 0;
+	position: relative;
+	display: block;
+	float: right;
+	width: 100%;
+}

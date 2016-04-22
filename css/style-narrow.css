@@ -9,3 +9,11 @@
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
+	
+.inline-image {
+	border: 0;
+	position: relative;
+	display: block;
+	float: right;
+	width: 100%;
+}

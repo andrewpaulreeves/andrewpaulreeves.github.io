@@ -228,6 +228,12 @@
 				width: 100%;
 			}
 
+	.inline-image {
+		border: 0;
+		position: relative;
+		display: block;
+		float: right;
+	}
 /* Icon */
 
 	.icon {
