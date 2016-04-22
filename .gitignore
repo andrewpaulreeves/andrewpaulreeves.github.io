@@ -63,4 +63,6 @@ target/
 
 *.DS_Store
 
-/soapy_test/*
+soapy_test/*
+soapybench/*
+soapytest/*
